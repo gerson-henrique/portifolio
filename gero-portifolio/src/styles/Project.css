@@ -1,0 +1,15 @@
+.project {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-image: url('../assets/black-textured-brick-wall-background.png');
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position:center; 
+  vertical-align: middle;
+  border-right: 5vh #fff;
+white-space: nowrap;
+}

@@ -34,6 +34,15 @@ button, button::after {
   color: #fff;
   letter-spacing: 0.6vw;
   line-height: 0vw;
+  text-shadow:
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 40px #f0f,
+  0 0 80px #f0f,
+  0 0 90px #f0f,
+  0 0 100px #f0f,
+  0 0 150px #f0f;
   box-shadow: 6px 0px 0px #fff;
   outline: transparent;
   position: relative;
