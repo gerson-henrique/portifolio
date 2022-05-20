@@ -1,13 +1,16 @@
 import React from 'react'
+
 import { Hyper } from './Hyper'
-import { NeonCircle } from './NeonCircle'
 import '../styles/Welcome.css'
+import { Marker } from './Marker'
 
 export const WelcomeLogo = () => {
   return (
     <div className='logo' >
-       <NeonCircle>
-      <Hyper > BEM VIND@</Hyper>
-      </NeonCircle>
+     <div>
+      <Hyper > GERO</Hyper>
+      <Marker> FULLSTACK WEB DEVELOPER </Marker>
+      <button>Download CV</button>
+      </div>
     </div>)
 }

@@ -1,25 +1,42 @@
 .hyperLogo {
-  font-size: 200px;
+  font-size: 29vw;
   color: aliceblue;
   color: #fff;
   text-shadow:
     0 0 5px #fff,
     0 0 10px #fff,
     0 0 20px #fff,
-    0 0 40px #0ff,
-    0 0 80px #0ff,
-    0 0 90px #0ff,
-    0 0 100px #0ff,
-    0 0 150px #0ff;
+    0 0 40px #f0f,
+    0 0 80px #f0f,
+    0 0 90px #f0f,
+    0 0 100px #f0f,
+    0 0 150px #f0f;
     z-index: 10;
-    position: relative;
     text-align: center;
-    left: -70px;
   }
+
+  .angelaLogo {
+    font-size: 7vw;
+    color: aliceblue;
+    color: #fff;
+    text-shadow: 0 0 5px #f0f;
+      z-index: 10;
+      text-align: center;
+    }
 
 .logo {
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
+  height: 90vh;
+  background-image: url('../assets/IMG_1181.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center; 
+  vertical-align: middle;
+  border-right: 5vh #fff;
+white-space: nowrap;
 }
 
