@@ -1,15 +1,11 @@
-import './styles/default.css'
-import { Welcome } from "./components/Welcome";
-import { Tech } from './components/Tech';
-import { Projects } from './components/Projects';
+
+import Main from './components/pages/Main';
 
 
 function App() {
   return (
     <div className="App">
-      <Welcome/>
-      <Projects/>
-      <Tech />
+      <Main/>
     </div>
   );
 }

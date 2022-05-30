@@ -1,9 +1,7 @@
-import '../styles/default.css'
+import React from 'react'
 
-export const Container = ({children}) => {
+export default function Container() {
   return (
-    <div className="container">
-      {children}
-    </div>
+    <div> {this.props.children} </div>
   )
 }
