@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Container() {
+export const Container = (props) => {
   return (
-    <div> {this.props.children} </div>
+    <div className={props.className}>{props.children}
+    </div>
   )
 }

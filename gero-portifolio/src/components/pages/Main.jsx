@@ -1,14 +1,16 @@
 import React from 'react'
-import Container from '../Container'
-import MySelf from '../../assets/IMG_1181.jpg'
-import ImageText from '../ImageText'
+import { Container } from '../Container'
+import "../../styles/colors.css"
+import { BlackBoard } from '../BlackBoard'
+import { Welcome } from '../Welcome'
 
-export default function Main() {
+export const Main = () => {
   return (
-    <Container>
-        <ImageText photo={MySelf}>
-          VAMO NESSA
-        </ImageText>
+    <Container className='gradient'>
+      <div className='logo'>Gero/ Projects/ Portifólio</div>
+      <BlackBoard>
+        <Welcome />
+      </BlackBoard>
     </Container>
   )
 }
