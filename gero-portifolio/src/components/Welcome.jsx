@@ -7,7 +7,9 @@ export const Welcome = () => {
     <div className='border'/>
     <div className='apresentation'>
 
-      <div className='bem-vindo'>Bem Vind@</div>
+
+      <div className='bem-vindo '>Bem Vind@</div>
+
     </div>
     </div>
   )

@@ -4,9 +4,22 @@
 background-image: url('../assets/liquid-flow-abstract-art.jpg');
  background-size: cover ;
  height: 3vh
-
 ;
 }
+
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #f0f,
+    0 0 82px #f0f,
+    0 0 92px #f0f,
+    0 0 102px #f0f,
+    0 0 151px #f0f;
+}
+
 
 .logo {
   font-family: 'Quicksand', sans-serif;
@@ -64,6 +77,14 @@ background-image: url('../assets/liquid-flow-abstract-art.jpg');
   margin-top: 20vh;
   font-family: 'Quicksand', sans-serif;
   font-size: 8vh;
+  color:white;
+  text-align: center;
+}
+
+.present {
+  margin-top: 20vh;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 6vh;
   color:white;
   text-align: center;
 }
