@@ -4,15 +4,24 @@
   justify-content: center;
 }
 
+.master img {
+  width: 4vh;
+  color: red;
+  filter: invert(29%) sepia(94%) saturate(2603%) hue-rotate(271deg) brightness(101%) contrast(107%);
+}
+
 .iconnav {
   background-color: #F3F3F3;
+  border: 10px;
+  border-color: blue;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   border-radius: 50px;
-  width: 50vw;
+  width: 50vh;
   position: fixed;
-  padding-bottom: 3px;
-  bottom: 10px;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  bottom: 3vh;
   z-index: 10;
 }
