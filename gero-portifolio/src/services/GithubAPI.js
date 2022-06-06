@@ -1,4 +1,4 @@
-const AWESOME_API_BASE = 'https://api.github.com/users/USERNAME/repos';
+const AWESOME_API_BASE = 'https://api.github.com/users/gerson-henrique/repos?per_page=100';
 
 const getRepos = async () => {
   const response = await fetch(AWESOME_API_BASE);
