@@ -4,7 +4,6 @@ import '../styles/colors.css'
 export const Welcome = () => {
   return (
     <div>
-    <div className='border'/>
     <div className='apresentation'>
 
 

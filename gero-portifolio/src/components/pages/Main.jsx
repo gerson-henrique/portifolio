@@ -8,9 +8,11 @@ export const Main = () => {
   return (
     <Container className='gradient'>
       <div className='logo'>Gero/ Projects/ Portifólio</div>
+      <div className='border'/>
       <BlackBoard>
         <Welcome />
       </BlackBoard>
+
     </Container>
   )
 }
